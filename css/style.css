@@ -223,7 +223,7 @@
 .activeCard{
     /* width: 230px; */
     background-color: #3C4292;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .aboutWrap{
@@ -248,6 +248,7 @@
 
 .activeCardTxt{
     font-size: 14px;
+    color: rgb(162, 162, 162) !important;
 }
 
 .joinUsTxt{
@@ -827,4 +828,8 @@ input{
 
 .announceCard:hover .notiBell{
     animation: bellani 1s;
+}
+
+.activeImg img{
+    width: 100% !important;
 }
