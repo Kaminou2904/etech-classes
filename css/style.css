@@ -800,10 +800,31 @@ input{
     background-color: white;
 }
 
+@keyframes bellani {
+    0%{
+        transform-origin: top center;
+        transform: rotate(20deg);
+    }25%{
+        transform-origin: top center;
+        transform: rotate(40deg);
+    }50%{
+        transform-origin: top center;
+        transform: rotate(-20deg);
+    }100%{
+        transform-origin: top center;
+        transform: rotate(20deg);
+    }
+}
+
 .notiBell{
+    transform-origin: center top;
     transform: rotate(20deg);
 }
 
 .announceCard h1{
     background-color: #3C4292;
+}
+
+.announceCard:hover .notiBell{
+    animation: bellani 1s;
 }
