@@ -795,3 +795,15 @@ input{
     animation: newani 2s infinite;
     font-size: 12px;
 }
+
+.announceCard{
+    background-color: white;
+}
+
+.notiBell{
+    transform: rotate(20deg);
+}
+
+.announceCard h1{
+    background-color: #3C4292;
+}
