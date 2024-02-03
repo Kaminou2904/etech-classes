@@ -1,0 +1,797 @@
+@font-face {
+    font-family: 'googlefont';
+    src: url('../fonts/Product Sans Regular.ttf');
+}
+@font-face {
+    font-family: 'googlefontItal';
+    src: url('../fonts/Product\ Sans\ Italic.ttf');
+}
+@font-face {
+    font-family: 'googlefontIt';
+    src: url('../fonts/Product\ Sans\ Bold\ Italic.ttf');
+}
+@font-face {
+    font-family: 'googsBold';
+    src: url('../fonts/Product Sans Bold.ttf');
+}
+@font-face {
+    font-family: 'playfair';
+    src: url('../fonts/PlayfairDisplay-Black.otf');
+}
+@font-face {
+    font-family: 'playfair-bold';
+    src: url('../fonts/PlayfairDisplay-Bold.otf');
+}
+
+@font-face {
+    font-family: philosopher-bold;
+    src: url(../fonts/Philosopher-Bold.ttf);
+}
+@font-face {
+    font-family: philosopher-regular;
+    src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+.roboto-black{
+    font-family: roboto-black, sans-serif !important;
+}
+.roboto-bold{
+    font-family: roboto-bold, sans-serif !important;
+}
+.roboto-regular{
+    font-family: roboto-regular, sans-serif !important;
+}
+.roboto-light{
+    font-family: roboto-light, sans-serif !important;
+}
+
+.philosopher-bold{
+    font-family: philosopher-bold, sans-serif !important;
+}
+.philosopher-regular{
+    font-family: philosopher-regular, sans-serif !important;
+}
+
+.googsRegular{
+    font-family: 'googlefont', sans-serif !important;
+}
+.googsBold{
+    font-family: 'googsBold', sans-serif !important;
+}
+.googsBoldIt{
+    font-family: 'googlefontIt', sans-serif !important;
+}
+.googsIt{
+    font-family: 'googlefontItal', sans-serif !important;
+}
+.pffont{
+    font-family: 'playfair', sans-serif !important;
+}
+.pffont-bold{
+    font-family: 'playfair-bold', sans-serif !important;
+}
+
+.brandRed{
+    color: #FF3636 !important;
+}
+.brandblue{
+    color: #07006C !important;
+}
+
+
+
+.brand-heading{
+    letter-spacing: -0.3px !important;
+    font-size: 25px !important;
+    line-height: 26px !important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto-regular, sans-serif;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    background-color: #ebebeb;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color: #d9d9d9;
+}
+
+.mainHeader{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 55;
+    background-color: white;
+}
+
+.logo{
+    width: 170px;
+}
+
+.brandRound{
+    border-radius: 15px !important;
+}
+
+.donateHead div{
+    border-radius: 10px !important;
+}
+
+.mainCardTextnBtn{
+    position: relative;
+    z-index: 2;
+    bottom: 61px;
+    margin: 0px 6px;
+}
+
+.mainCardTxt{
+    font-size: 18px !important;
+    line-height: 19px;
+}
+
+.mainCardBtn{
+    font-size: 13px;
+}
+
+.aboutWrap{
+    transition: 2s;
+}
+
+.aboutHead{
+    font-size: 18px;
+}
+
+.aboutTxtP, .hiddenTxt{
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}
+
+.hiddenTxt{
+    overflow-y: hidden;
+    transition: 0.5s;
+    display: none;    
+}
+
+.readmoreBtn, .readLessBtn{
+    cursor: pointer;
+}
+
+.mainCard{
+    border-radius: 10px;
+    height: 180px;
+}
+
+.mainCardData{
+    width: 40%;
+}
+
+.viewBtn{
+    border: 1px solid #FE7877 !important;
+}
+
+.mainCardImg{
+    width: 60%;
+}
+
+.mainCardTxt{
+    font-size: 27px;
+}
+
+.mainCardImg img{
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 5px;
+}
+
+/* card activity Styleing */
+.activeWrap{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.activeWrap::-webkit-scrollbar{
+    display: none;
+}
+
+.activeCardWrap{
+    width: max-content;
+    overflow-x: scroll;
+}
+
+.activeCard{
+    /* width: 230px; */
+    background-color: #3C4292;
+    cursor: pointer;
+}
+
+.aboutWrap{
+    color: rgb(87, 87, 87);
+}
+
+.activeTxt{
+    margin-top: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.activeCardHead{
+    height: 45px;
+    font-size: 20px;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* Adjust the value based on the number of lines you want to show */
+    max-height: 3em
+}
+
+.activeCardTxt{
+    font-size: 14px;
+}
+
+.joinUsTxt{
+    font-size: 18px;
+}
+
+.joinBtn{
+    font-size: 14px;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.joinBtn:hover{
+    color: white !important;
+}
+
+/* maklat card */
+.maktabWrap{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.maktabWrap::-webkit-scrollbar{
+    display: none;
+}
+
+.maktabCardWrap{
+    width: max-content;
+}
+
+.maktabCard{
+    width: 120px;
+}
+
+.maktabImg{
+    border-radius: 20px !important;
+}
+
+/* sara card  */
+.saraFormWrap{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.saraFormWrap::-webkit-scrollbar{
+    display: none;
+}
+
+.itemTxt{
+    font-size: 12px;
+}
+
+.floatBtn{
+    position: fixed;
+    bottom: 0px;
+    z-index: 15;
+}
+
+.floatWrap p{
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 510px) {
+    .logo{
+        width: 110px;
+    }
+
+    .floatWrap p{
+        white-space: nowrap;
+        font-size: 16px !important;
+    }
+}
+
+
+
+
+/* complex page styling */
+
+.comLogoWrap{
+    width: min(50%, 250px);
+}
+
+.introtext{
+    color: rgb(74, 74, 74);
+    letter-spacing: 0.5px;
+}
+
+.comabouttxt, #comhiddenTxt{
+    font-size: 14px !important;
+    color: gray !important;
+    text-align: justify;
+}
+
+#comhiddenTxt{
+    height: 0px;
+    overflow: hidden;
+}
+
+.uniqTab{
+    width: min(45%, 230px);
+}
+
+.uniqText{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.next{
+    width: min(100%, 600px);
+    margin: 20px auto !important;
+}
+
+.pursuidDiv p{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 900;
+}
+
+.overImg{
+    filter: drop-shadow(0px 0px 6px rgb(206, 206, 206)) !important;
+}
+
+.copyBtn{
+    font-size: 12px;
+    background-color: rgb(222, 222, 222) !important;
+    letter-spacing: 1px;
+}
+
+#donate{
+    width: min(100%, 600px);
+    margin: 10px auto !important;
+}
+
+.donateTabs{
+    width: min(100%, 358px);
+    overflow-x: auto;
+}
+
+.donateTabs::-webkit-scrollbar{
+    display: none;
+}
+
+.donateTab{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.whatIcon{
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 20;
+}
+
+.acDetail{
+    position: relative;
+    z-index: 22;
+}
+
+.footerLogo{
+    width: min(48%, 300px) !important;
+}
+
+.footerLink{
+    border-color: #481448 !important;
+}
+
+.footerCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: max(300px, 30%);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.footerAboutP{
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.popupDiv{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #0000004f;
+    z-index: 56;
+    display: none;
+    overflow-y: auto;
+}
+
+.popup{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.LogoWraper{
+    width: min(40%, 300px);
+    position: relative;
+    left: 26%;
+}
+
+.crossBtn{
+    color: rgb(206, 206, 206) !important;
+}
+
+
+.mainIntroPara{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.datePara{
+    font-size: 18px;
+}
+
+/* maktab styling */
+
+.maktabCardImg{
+    border-radius: 15px;
+}
+
+.schoolHead{
+    font-size: 26px;
+    line-height: 28px;
+}
+
+.maktabCaroImg{
+    height: 300px;
+    overflow: hidden;
+}
+
+.maktabCaroImg img{
+    height: 100% !important;
+    width: auto !important;
+    margin: auto !important;
+}
+
+.maktabHeader{
+    z-index: 99;
+}
+
+.headImg{
+    width: min(50%, 200px);
+}
+
+/* calendar.html style */
+.mainCalendarImg img{
+    border-radius: 10px !important;
+}
+
+.mainCalendarPara{
+    font-size: 17px;
+}
+
+.adSlot{
+    border-radius: 10px;
+    background-color: #75995C;
+}
+
+.claendar2024{
+    background-color: #A85F4E;
+    border-radius: 10px;
+}
+
+.bookBtn a {
+    width: 140px;
+}
+
+.calendarPriceTxt{
+    font-size: 12px;
+}
+
+.prevCardLink{
+    background-color: #dd6363;
+    color: white;
+}
+
+.floadBtns{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    z-index: 25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.floatLink{
+    background-color: #dd6363;
+    font-size: 14px;
+}
+
+.floatBtnBody{
+    box-shadow: 0px -7px 10px rgb(236, 236, 236);
+}
+
+.getBoxDiv{
+    background-color: #003399;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.getBoxTxt{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.acountDeat{
+    background-color: #f1f1f1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.lowerBanner img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.sarallahFoundationCard{
+    /* border-radius: 20px;  */
+    overflow: hidden;
+}
+
+.sarallahFoudationTxt{
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.mediaGalleryCard{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* .sarallahCalendar,
+.gallaDiv,
+.mediaGalleryCard{
+    width: min(100%, 400px);
+} */
+
+/* responsive image gallery */
+.activeImages, .schoolCardCaro{
+    columns: 4;
+}
+
+.activeImages > div{
+    break-inside: avoid;
+}
+
+@media screen and (max-width: 1000px) {
+    .activeImages, .schoolCardCaro{
+        columns: 2;
+    }
+}
+@media screen and (max-width: 600px) {
+    .activeImages, .schoolCardCaro{
+        columns: 1;
+    }
+}
+@media screen and (min-width: 600px) {
+    .mainIntro{
+        display: none;
+    };
+    .mainIntro2{
+        display: block !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .mainIntro2{
+        display: none;
+    }
+}
+.gallaCard{
+    overflow: hidden;
+}
+iframe{
+    margin-top: 10px;
+}
+.inpuIndi{
+    font-size: 14px;
+}
+label{
+    font-size: 14px !important;
+}
+input{
+    font-size: 14px !important;
+}
+.imgCardWrap{
+    columns: 2;
+}
+.galleryWrap{
+    height: max-content !important;
+}
+.imgGalleryWraper{
+    columns: 1;
+}
+@media screen and (min-width: 600px) {
+    .imgGalleryWraper{
+        columns: 4;
+    }
+    .imgCardWrap{
+        columns: 3;
+    }
+}
+.galleryWrap{
+    cursor: pointer;
+}
+
+.galleryImg{
+    cursor: pointer;
+}
+.imgPopupContainer{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    backdrop-filter: blur(4px);
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.imgpopup{
+    height: 80%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.popupImg{
+    height: 100%;
+    width: auto;
+}
+@media screen and (min-width: 765px) {
+    .introtext{
+        text-align: left !important;
+    }
+    .comLogoWrap{
+        margin: 0px 0px !important;
+    }
+}
+
+
+
+/* ************************************************ Navbar ************************************************ */
+
+.myUL{
+    list-style: none;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobNav{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(3px);
+    display: none;
+    justify-content: end;
+}
+@keyframes navani {
+    from{
+        right: -100vw;
+    }to{
+        right: 0vw;
+    }
+}
+.mobUL{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    animation: navani 0.3s ease-out;
+}
+.mobUL li, .mobUL div{
+    margin-bottom: 20px;
+}
+.navBtn{
+    width: 5px;
+    cursor: pointer;
+}
+.links{
+    cursor: pointer;
+}
+.links:hover{
+    color: black !important;
+}
+
+@media screen and (width > 1100px) {
+    .myUL{
+        display: flex;
+    }
+    .mobNav{
+        display: none;
+    }
+    .navBtn{
+        display: none;
+    }
+}
+
+.cards-wrap img{
+    width: 100%;
+}
+
+.teacherCard{
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.teachercardimgWraper{
+    background: linear-gradient( to bottom, rgb(155, 142, 255) 0%, rgb(155, 142, 255) 50%, white 50%, white 100%);
+}
+
+.announceUl{
+    list-style: square;
+}
+
+@keyframes newani {
+    0%{
+        color: black;
+        background-color: yellow;
+    }50%{
+        color: white;
+        background-color: red;
+    }100%{
+        color: black;
+        background-color: yellow;
+    }
+}
+
+.newSpan{
+    animation: newani 2s infinite;
+    font-size: 12px;
+}

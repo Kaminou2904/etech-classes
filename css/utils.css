@@ -1,0 +1,28 @@
+.rounded-brand{
+    border-radius: 15px !important;
+}
+.rounded-brand-1{
+    border-radius: 20px !important;
+}
+.rounded-brand-2{
+    border-radius: 25px !important;
+}
+
+.text-brand-blue{
+    color: #3C4292 !important;
+}
+.bg-brand-blue{
+    background-color: #3C4292 !important;
+}
+
+.text-brand-yellow{
+    color: #F3C624 !important;
+}
+
+.overflow-hidden{
+    overflow: hidden !important;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
