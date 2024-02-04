@@ -833,3 +833,7 @@ input{
 .activeImg img{
     width: 100% !important;
 }
+
+.testdate{
+    font-size: 13px;
+}

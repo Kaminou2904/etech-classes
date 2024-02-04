@@ -479,6 +479,62 @@
             </div>
         </div>
 
+        <div class="testimonialWrap container my-5 pt-3">
+            <h3 class="brand-heading philosopher-bold fw-bolder">Student's<span
+                class="text-primary philosopher-bold">Reviews</span>
+            Teachers</h3>
+            <div class="testimonialCardWrap owl-testimol owl-theme owl-carousel mt-3">
+                <div class="testimonialCard">
+                    <video controls class="img-fluid rounded-brand-2 overflow-hidden">
+                        <source src="./assets/video/introVid.mp4">
+                    </video>
+                    <div class="testiData p-1 px-3">
+                        <p class="startsWrap mb-0">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star-half text-warning"></i>
+                        </p>
+                        <p class="mb-0 roboto-bold fs-5">Vikas Kanoo</p>
+                        <p class="testdate text-muted m-0 p-0 lh-sm">4 JAN 2023</p>
+                    </div>
+                </div>
+                <div class="testimonialCard">
+                    <video controls class="img-fluid rounded-brand-2 overflow-hidden">
+                        <source src="./assets/video/introVid.mp4">
+                    </video>
+                    <div class="testiData p-1 px-3">
+                        <p class="startsWrap mb-0">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star-half text-warning"></i>
+                        </p>
+                        <p class="mb-0 roboto-bold fs-5">Vikas Kanoo</p>
+                        <p class="testdate text-muted m-0 p-0 lh-sm">4 JAN 2023</p>
+                    </div>
+                </div>
+                <div class="testimonialCard">
+                    <video controls class="img-fluid rounded-brand-2 overflow-hidden">
+                        <source src="./assets/video/introVid.mp4">
+                    </video>
+                    <div class="testiData p-1 px-3">
+                        <p class="startsWrap mb-0">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star-half text-warning"></i>
+                        </p>
+                        <p class="mb-0 roboto-bold fs-5">Vikas Kanoo</p>
+                        <p class="testdate text-muted m-0 p-0 lh-sm">4 JAN 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="footerDiv mt-4">
             <div class="footerWrap pt-5">
                 <div class="footerLogo container">
@@ -688,6 +744,31 @@
                     },
                     1000: {
                         items: 5,
+                        nav: false,
+                        loop: false,
+                        margin: 15
+                    }
+                }
+            })
+            $('.owl-testimol').owlCarousel({
+                loop: true,
+                margin: 0,
+                dots: false,
+                arrow: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1.2,
+                        nav: false,
+                        margin: 15
+                    },
+                    600: {
+                        items: 2.2,
+                        nav: false,
+                        margin: 15
+                    },
+                    1000: {
+                        items: 3,
                         nav: false,
                         loop: false,
                         margin: 15
