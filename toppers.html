@@ -127,21 +127,23 @@
                 class="text-primary philosopher-bold">E-Tech</span>
             Toppers</h3>
            <div class="subjectTabWrap d-flex flex-wrap mt-4">
-                <div class="subTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">maths</div>
-                <div class="subTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">maths</div>
-                <div class="subTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">maths</div>
-                <div class="subTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">maths</div>
+                <div class="subTab btn btn-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand alltab">all</div>
+                <div class="subTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">NEET</div>
+                <div class="subTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">JEE</div>
+                <div class="subTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">CET</div>
+                <div class="subTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">Science</div>
                 <div class="subTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">maths</div>
            </div>
            <div class="yearTabWrap d-flex flex-wrap mt-2">
-                <div class="yearTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">2019</div>
-                <div class="yearTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">2020</div>
-                <div class="yearTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">2021</div>
-                <div class="yearTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">2022</div>
-                <div class="yearTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">2023</div>
+               <div class="yearTab btn btn-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand allyear">All</div>
+               <div class="yearTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">2023</div>
+               <div class="yearTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">2022</div>
+               <div class="yearTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">2021</div>
+               <div class="yearTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">2020</div>
+               <div class="yearTab btn btn-outline-dark p-2 px-3 text-capitalize me-2 mb-2 rounded-brand">2019</div>
            </div>
            <div class="studentCard wrap row px-4 mt-5">
-                <div class="col-md-3 p-2">
+                <div class="col-md-3 p-2 topCardWrap" data-year="2023" data-subject="maths">
                     <div class="activeCard border rounded-3 p-2 me-2 brandRound">
                         <div class="activeImg border rounded-3">
                             <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
@@ -155,7 +157,63 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 p-2">
+                <div class="col-md-3 p-2 topCardWrap" data-year="2022" data-subject="neet">
+                    <div class="activeCard border rounded-3 p-2 me-2 brandRound">
+                        <div class="activeImg border rounded-3">
+                            <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
+                        </div>
+                        <div class="activeTxt d-flex align-items-start justify-content-between">
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="activeCardHead philosopher-bold text-white mb-2">Vikas <span class="philosopher-bold text-white">Kanoo</span></p>
+                                <p class="activeCardTxt lh-sm text-muted roboto-bold mb-0"><i class="fas fa-calendar-week me-1 text-brand-yellow"></i> Year 2022</p>
+                            </div>
+                            <p class="activeCardTxt fs-3 lh-sm text-brand-yellow roboto-bold mb-0 text-nowrap"> 98 <i class="fas fa-percentage me-1 text-brand-yellow"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2 topCardWrap" data-year="2021" data-subject="jee">
+                    <div class="activeCard border rounded-3 p-2 me-2 brandRound">
+                        <div class="activeImg border rounded-3">
+                            <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
+                        </div>
+                        <div class="activeTxt d-flex align-items-start justify-content-between">
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="activeCardHead philosopher-bold text-white mb-2">Vikas <span class="philosopher-bold text-white">Kanoo</span></p>
+                                <p class="activeCardTxt lh-sm text-muted roboto-bold mb-0"><i class="fas fa-calendar-week me-1 text-brand-yellow"></i> Year 2021</p>
+                            </div>
+                            <p class="activeCardTxt fs-3 lh-sm text-brand-yellow roboto-bold mb-0 text-nowrap"> 98 <i class="fas fa-percentage me-1 text-brand-yellow"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2 topCardWrap" data-year="2020" data-subject="science">
+                    <div class="activeCard border rounded-3 p-2 me-2 brandRound">
+                        <div class="activeImg border rounded-3">
+                            <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
+                        </div>
+                        <div class="activeTxt d-flex align-items-start justify-content-between">
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="activeCardHead philosopher-bold text-white mb-2">Vikas <span class="philosopher-bold text-white">Kanoo</span></p>
+                                <p class="activeCardTxt lh-sm text-muted roboto-bold mb-0"><i class="fas fa-calendar-week me-1 text-brand-yellow"></i> Year 2020</p>
+                            </div>
+                            <p class="activeCardTxt fs-3 lh-sm text-brand-yellow roboto-bold mb-0 text-nowrap"> 98 <i class="fas fa-percentage me-1 text-brand-yellow"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2 topCardWrap" data-year="2019" data-subject="maths">
+                    <div class="activeCard border rounded-3 p-2 me-2 brandRound">
+                        <div class="activeImg border rounded-3">
+                            <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
+                        </div>
+                        <div class="activeTxt d-flex align-items-start justify-content-between">
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="activeCardHead philosopher-bold text-white mb-2">Vikas <span class="philosopher-bold text-white">Kanoo</span></p>
+                                <p class="activeCardTxt lh-sm text-muted roboto-bold mb-0"><i class="fas fa-calendar-week me-1 text-brand-yellow"></i> Year 2019</p>
+                            </div>
+                            <p class="activeCardTxt fs-3 lh-sm text-brand-yellow roboto-bold mb-0 text-nowrap"> 98 <i class="fas fa-percentage me-1 text-brand-yellow"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2 topCardWrap" data-year="2023" data-subject="cet">
                     <div class="activeCard border rounded-3 p-2 me-2 brandRound">
                         <div class="activeImg border rounded-3">
                             <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
@@ -169,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 p-2">
+                <div class="col-md-3 p-2 topCardWrap" data-year="2023" data-subject="maths">
                     <div class="activeCard border rounded-3 p-2 me-2 brandRound">
                         <div class="activeImg border rounded-3">
                             <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
@@ -183,63 +241,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 p-2">
-                    <div class="activeCard border rounded-3 p-2 me-2 brandRound">
-                        <div class="activeImg border rounded-3">
-                            <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
-                        </div>
-                        <div class="activeTxt d-flex align-items-start justify-content-between">
-                            <div class="d-flex flex-column align-items-start">
-                                <p class="activeCardHead philosopher-bold text-white mb-2">Vikas <span class="philosopher-bold text-white">Kanoo</span></p>
-                                <p class="activeCardTxt lh-sm text-muted roboto-bold mb-0"><i class="fas fa-calendar-week me-1 text-brand-yellow"></i> Year 2023</p>
-                            </div>
-                            <p class="activeCardTxt fs-3 lh-sm text-brand-yellow roboto-bold mb-0 text-nowrap"> 98 <i class="fas fa-percentage me-1 text-brand-yellow"></i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 p-2">
-                    <div class="activeCard border rounded-3 p-2 me-2 brandRound">
-                        <div class="activeImg border rounded-3">
-                            <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
-                        </div>
-                        <div class="activeTxt d-flex align-items-start justify-content-between">
-                            <div class="d-flex flex-column align-items-start">
-                                <p class="activeCardHead philosopher-bold text-white mb-2">Vikas <span class="philosopher-bold text-white">Kanoo</span></p>
-                                <p class="activeCardTxt lh-sm text-muted roboto-bold mb-0"><i class="fas fa-calendar-week me-1 text-brand-yellow"></i> Year 2023</p>
-                            </div>
-                            <p class="activeCardTxt fs-3 lh-sm text-brand-yellow roboto-bold mb-0 text-nowrap"> 98 <i class="fas fa-percentage me-1 text-brand-yellow"></i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 p-2">
-                    <div class="activeCard border rounded-3 p-2 me-2 brandRound">
-                        <div class="activeImg border rounded-3">
-                            <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
-                        </div>
-                        <div class="activeTxt d-flex align-items-start justify-content-between">
-                            <div class="d-flex flex-column align-items-start">
-                                <p class="activeCardHead philosopher-bold text-white mb-2">Vikas <span class="philosopher-bold text-white">Kanoo</span></p>
-                                <p class="activeCardTxt lh-sm text-muted roboto-bold mb-0"><i class="fas fa-calendar-week me-1 text-brand-yellow"></i> Year 2023</p>
-                            </div>
-                            <p class="activeCardTxt fs-3 lh-sm text-brand-yellow roboto-bold mb-0 text-nowrap"> 98 <i class="fas fa-percentage me-1 text-brand-yellow"></i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 p-2">
-                    <div class="activeCard border rounded-3 p-2 me-2 brandRound">
-                        <div class="activeImg border rounded-3">
-                            <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
-                        </div>
-                        <div class="activeTxt d-flex align-items-start justify-content-between">
-                            <div class="d-flex flex-column align-items-start">
-                                <p class="activeCardHead philosopher-bold text-white mb-2">Vikas <span class="philosopher-bold text-white">Kanoo</span></p>
-                                <p class="activeCardTxt lh-sm text-muted roboto-bold mb-0"><i class="fas fa-calendar-week me-1 text-brand-yellow"></i> Year 2023</p>
-                            </div>
-                            <p class="activeCardTxt fs-3 lh-sm text-brand-yellow roboto-bold mb-0 text-nowrap"> 98 <i class="fas fa-percentage me-1 text-brand-yellow"></i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 p-2">
+                <div class="col-md-3 p-2 topCardWrap" data-year="2023" data-subject="maths">
                     <div class="activeCard border rounded-3 p-2 me-2 brandRound">
                         <div class="activeImg border rounded-3">
                             <img src="https://arihantacademy.com/wp-content/uploads/2022/08/Arnav-Chokhowala.jpeg" class="img-fluid rounded-3" alt="">
@@ -306,6 +308,8 @@
 
     <!-- owlcarousel js -->
     <script src="js/owl.carousel.min.js"></script>
+
+    <!-- my js -->    
     <script>
             const navBtn = document.querySelector('.navBtn');
             const mobNav = document.querySelector(".mobNav");
@@ -323,6 +327,56 @@
                     mobNav.style.display = 'none';
                 }
             })
+
+            const subtabs = document.querySelectorAll('.subTab');
+            const yeartabs = document.querySelectorAll('.yearTab');
+            const activeWraps = document.querySelectorAll('.topCardWrap');
+            const filterobj = {
+                subject: '',
+                year: ''
+            }
+
+            subtabs.forEach((tab)=> {
+                tab.addEventListener('click', ()=>{
+                    subtabs.forEach((d)=>{d.classList.add('btn-outline-dark'); d.classList.remove('btn-dark')})
+                    tab.classList.add('btn-dark');
+                    tab.classList.remove('btn-outline-dark');
+                    filterobj.subject = tab.innerText.toLowerCase();
+                    filterFunc()
+                })
+            })
+
+            yeartabs.forEach((tab)=> {
+                tab.addEventListener('click', ()=>{
+                    yeartabs.forEach((d)=>{d.classList.add('btn-outline-dark'); d.classList.remove('btn-dark')})
+                    tab.classList.add('btn-dark');
+                    tab.classList.remove('btn-outline-dark');
+                    filterobj.year = tab.innerText.toLowerCase();
+                    filterFunc()
+                })
+            })
+
+            const filterFunc = () => {
+                activeWraps.forEach((card)=>{
+                    const attriSub = card.getAttribute('data-subject');
+                    const attrYear = card.getAttribute('data-year');
+                    if(attriSub === filterobj.subject || attrYear === filterobj.year){
+                        card.style.display = 'block';
+                    }else if(filterobj.subject === 'all' && attrYear === filterobj.year){
+                        card.style.display = 'block'
+                    }else if(attriSub === filterobj.subject && filterobj.year === 'all'){
+                        card.style.display = 'block'
+                    }else if(filterobj.subject === 'all' && filterobj.year === 'all'){
+                        card.style.display = 'block'
+                    }else{
+                        card.style.display = 'none'
+                        console.log(filterobj)
+                        console.log(filterobj.subject)
+                        console.log('i am else')
+                    }
+                })
+            }
+
     </script>
 </body>
 
